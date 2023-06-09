@@ -1,6 +1,5 @@
 export default {
   async fetch(request) {
-    console.log(request)
     const init = {
       headers: {
         "Referer": "https://guanjia.qq.com",
